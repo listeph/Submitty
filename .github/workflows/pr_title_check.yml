@@ -18,3 +18,7 @@ jobs:
       # [<TYPE>:<MODULE>] <SUBJECT>
       #
       - uses: submitty/action-pr-title@main
+  dependabot-title-fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: submitty/action-dependabot-title-fixer@master
